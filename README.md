@@ -103,7 +103,7 @@ If this policy is updated, the "Last updated" date at the top will change. Conti
 
 ## 12. Contact
 
-Questions about this policy or the App's data practices can be directed to: **[your contact email here]**
+Questions about this policy or the App's data practices can be directed to: **[suss.edtech@gmail.com]**
 
 ---
 
