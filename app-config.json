@@ -1,7 +1,7 @@
 {
   "minRequiredVersion": "1.0.0",
   "updateMessage": "ॲपचे नवीन व्हर्जन उपलब्ध आहे. कृपया अपडेट करा!",
-  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.yourmandal.app",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.mandalmanager.app",
   
   "announcement": {
     "show": false,
@@ -14,8 +14,8 @@
     "campaigns": [
       {
         "id": "solapur-jewelers",
-        "imageUrl": "https://yourwebsite.com/jeweler-ad.jpg",
-        "clickUrl": "https://wa.me/919876543210",
+        "imageUrl": "https://sussedtech.github.io/mandal-manager/banner.png"
+        "clickUrl": "https://wa.me/7620129612",
         "startDate": "2026-08-01T00:00:00+05:30",
         "endDate": "2026-08-15T23:59:59+05:30"
       },
