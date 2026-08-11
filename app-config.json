@@ -4,7 +4,7 @@
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.mandalmanager.app",
   
   "announcement": {
-    "show": true,
+    "show": fasle,
     "id": "ganesh-2026-promo",
     "message": "गणेशोत्सवाच्या हार्दिक शुभेच्छा!"
   },
@@ -26,7 +26,7 @@
         "id": "banner-02-bakery",
         "imageUrl": "https://sussedtech.github.io/mandal-manager/banner2.png",
         "clickUrl": "",
-        "startDate": "2096-08-01T00:00:00+05:30",
+        "startDate": "2026-08-01T00:00:00+05:30",
         "endDate": "2026-09-30T23:59:59+05:30"
       },
       {
