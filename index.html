@@ -8,96 +8,149 @@
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
             line-height: 1.6; 
-            color: #333; 
+            color: #2B2318; 
             max-width: 800px; 
             margin: 0 auto; 
-            padding: 20px; 
+            padding: 30px 20px; 
+            background-color: #FAF5EE;
         }
-        h1 { color: #2c3e50; }
-        h2 { color: #34495e; margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 10px; font-size: 1.3em;}
-        p { margin-bottom: 15px; }
-        ul { margin-bottom: 20px; padding-left: 20px; }
-        li { margin-bottom: 10px; }
-        .disclaimer { background-color: #f8f9fa; padding: 15px; border-left: 4px solid #6c757d; margin-top: 30px; font-size: 0.9em; }
+        .container {
+            background: #FFFFFF;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid #EDE1D1;
+        }
+        h1 { 
+            color: #1D3357; 
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+        h2 { 
+            color: #2C4A7C; 
+            margin-top: 35px; 
+            border-bottom: 2px solid #E8EDF5; 
+            padding-bottom: 8px; 
+            font-size: 1.4em;
+        }
+        p { 
+            margin-bottom: 16px; 
+            color: #333;
+        }
+        ul { 
+            margin-bottom: 20px; 
+            padding-left: 24px; 
+        }
+        li { 
+            margin-bottom: 12px; 
+        }
+        strong {
+            color: #1D3357;
+        }
+        a {
+            color: #2C4A7C;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .meta-text {
+            color: #6B7280;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .disclaimer { 
+            background-color: #E8F6EF; 
+            padding: 20px; 
+            border-left: 4px solid #1B8A5A; 
+            margin-top: 40px; 
+            font-size: 0.95em; 
+            color: #1B8A5A;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p><strong>Last updated:</strong> 05-08-2026</p>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="meta-text"><strong>Last updated:</strong> 26-08-2026</p>
 
-    <p><strong>Mandal Manager</strong><br>
-    This policy explains what information Mandal Manager ("the App") handles, how it's stored, and what it doesn't do. It's written in plain language on purpose, describing what the App actually does rather than asserting compliance with any specific law see the Disclaimer section at the end for why that distinction matters.</p>
+        <p><strong>Mandal Manager</strong> ("the App") is an offline management tool designed for community festival groups, committees, and organizations in Maharashtra. This policy explains what information the App handles, how it is stored, and what it specifically does not do. It is written in plain, unambiguous language to clearly describe the App's actual operations rather than asserting compliance with specific regional laws. Please see the Disclaimer section at the end for more details.</p>
 
-    <h2>1. Who This Policy Covers</h2>
-    <p>This policy applies to anyone using Mandal Manager - whether set up as a President/Treasurer device or a Coordinator device - for managing a community festival group's donations, expenses, tasks, contacts, and related records.</p>
+        <h2>1. Who This Policy Covers</h2>
+        <p>This policy applies to anyone using Mandal Manager—whether you are operating the App in the full-access <strong>President/Treasurer</strong> mode or the restricted <strong>Coordinator (Karyakarta)</strong> mode—for the purpose of managing a community group's donations, expenses, tasks, contacts, and related records.</p>
 
-    <h2>2. The Short Version</h2>
-    <p>Mandal Manager stores everything directly on your device. There is no company server, no cloud database, and no backend the App reports to. Nothing you enter a donor's name, a phone number, a rupee amount, a photo, an uploaded file is transmitted anywhere by the App itself. The only way any of that information leaves your device is if you, the user, deliberately choose to send it somewhere yourself (for example, tapping "Share" to send a receipt over WhatsApp). That is your own action, not something the App does on its own.</p>
+        <h2>2. The Short Version</h2>
+        <p><strong>Mandal Manager stores everything directly on your device.</strong> There is no company server, no cloud database, and no backend that the App reports to. Nothing you enter into the App—a donor's name, a phone number, a rupee amount, a photo, or an uploaded file—is transmitted anywhere by the App itself. The only way any of that information leaves your device is if you, the user, deliberately choose to send it somewhere yourself (for example, tapping "Share" to send a receipt over WhatsApp). That is your own action; the App never transmits data on its own.</p>
 
-    <h2>3. What Information the App Stores (Locally, On Your Device Only)</h2>
-    <p>Depending on how you use it, the App may store:</p>
-    <ul>
-        <li>Donation records - donor names, donation amounts, dates and times, payment mode (cash or UPI), and a UPI transaction reference number if you choose to enter one</li>
-        <li>Donor mobile numbers, if you choose to add them, used only to address WhatsApp/SMS messages directly and to enable the receipt-sharing features</li>
-        <li>Expense records - vendor/item names, amounts, dates, and notes</li>
-        <li>Task and contact information you enter, including names and phone numbers for people in your organization</li>
-        <li>The Coordinator/President profile you set up on that specific device a name, phone number, and, if you choose to set one, a security PIN</li>
-        <li>A Mandal name and logo image, if you upload one, used to personalize receipts and reports</li>
-        <li>Audio files (MP3s), if you choose to upload any, for offline playback</li>
-        <li>PDF file attachments, if you choose to attach one to an entry for example, a vendor's receipt or a scanned copy of a permission document you've already obtained from the relevant local authority (see Section 8 for an important clarification about this)</li>
-        <li>Backup files you create yourself, in ammr format specific to this App, which you control and choose where to save or send</li>
-    </ul>
-    <p>All of the above lives in your device's own local storage. None of it is copied to any server operated by the App, because no such server exists.</p>
+        <h2>3. What Information the App Stores (Locally, On Your Device Only)</h2>
+        <p>Depending on how you use it, the App may store the following information directly in your device's internal storage:</p>
+        <ul>
+            <li><strong>Donation records:</strong> Donor names, donation amounts, dates and times, payment mode (cash or UPI), and a UPI transaction reference number (UTR) if you choose to enter one.</li>
+            <li><strong>Contact details:</strong> Donor and participant mobile numbers, if you choose to add them. These are used strictly to address WhatsApp/SMS messages directly and to enable the receipt-sharing features.</li>
+            <li><strong>Expense records:</strong> Vendor or item names, exact amounts, transaction dates, and specific notes.</li>
+            <li><strong>Task and contact lists:</strong> Information you enter for preplanning, tracking volunteer assignments, competition participants, or committee rosters.</li>
+            <li><strong>Coordinator/President profiles:</strong> The profile you set up on a specific device, including a name, phone number, and an optional security PIN for locking sensitive actions.</li>
+            <li><strong>Branding assets:</strong> A Mandal name, custom receipt messages, and a logo or UPI QR code image, if you upload them, to personalize receipts and reports.</li>
+            <li><strong>Audio files:</strong> MP3s or web links you choose to upload for offline event playback.</li>
+            <li><strong>PDF file attachments:</strong> Up to 5MB per entry, if you choose to attach one to a record (for example, a vendor's receipt or a scanned copy of a permission document). See Section 8 for important clarifications regarding this feature.</li>
+            <li><strong>Backup files:</strong> Files you generate yourself (in .mmr or .json format) specific to this App, which you entirely control and choose where to save or distribute.</li>
+        </ul>
+        <p>All of the above lives exclusively in your device's own local IndexedDB storage. None of it is copied to any server operated by the developers of this App, because no such server exists.</p>
 
-    <h2>4. What Happens When You Choose to Share Something</h2>
-    <p>The App includes features to share a donation receipt or a report via WhatsApp, SMS, or as a downloadable/shareable PDF file. When you use these features:</p>
-    <ul>
-        <li>You are the one choosing to send the information, and you are choosing who it goes to (either by picking a contact yourself, or, if a donor's number is saved, the App pre-addresses the message to that number for your convenience)</li>
-        <li>Once a message or file leaves your device through WhatsApp, SMS, or your phone's own share menu, it is subject to that other app's own privacy practices, not this App's - we have no visibility into or control over what happens to information after it's handed off to WhatsApp, your SMS provider, or whatever app you choose to share a PDF through</li>
-    </ul>
+        <h2>4. What Happens When You Choose to Share Something</h2>
+        <p>The App includes features allowing you to share donation receipts, announcements, or full financial reports (Hishob) via WhatsApp, SMS, or as downloadable PDF/Excel files. When you utilize these features:</p>
+        <ul>
+            <li>You are the one making the explicit choice to send the information, and you are choosing who it goes to. (If a donor's number is saved, the App may pre-address the WhatsApp or SMS message for your convenience).</li>
+            <li>Once a message or file leaves your device through WhatsApp, SMS, or your phone's native sharing menu, it becomes subject to that respective app's own privacy practices, not this App's. We have no visibility into, nor control over, what happens to information after it is handed off to WhatsApp, your telecom provider, or any other application.</li>
+        </ul>
 
-    <h2>5. Advertising</h2>
-    <p>This App may display banner advertisements through Google AdMob to support its continued availability at no cost. AdMob may collect certain information for the purpose of showing and measuring ads this is governed by Google's own privacy policy and AdMob's own data practices, not by this App directly, since we do not control what AdMob itself collects for ad-serving purposes. You can review Google's practices at their own published privacy policy.</p>
+        <h2>5. Advertising and Premium Features</h2>
+        <p>This App may display banner advertisements through Google AdMob to support its continued availability at no cost. AdMob may collect certain information for the purpose of showing and measuring ads. This process is governed exclusively by Google's own privacy policy and AdMob's own data practices, not by this App directly, as we do not control what AdMob collects for ad-serving purposes. You can review Google's practices at their own published privacy policy.</p>
+        <p>If you choose to purchase the "Go Premium / Remove Ads" feature via Google Play Billing, the transaction is handled entirely by Google Play. We do not process, see, or store your credit card or payment details.</p>
 
-    <h2>6. Permissions This App May Request</h2>
-    <ul>
-        <li><strong>Contacts</strong> - used only if you choose to add a contact card to your phone's own contacts directory, or import an existing phone contact into the App. The App does not read or transmit your contacts for any other purpose.</li>
-        <li><strong>Notifications</strong> - used only to remind you about a task you've set a reminder for.</li>
-        <li><strong>Storage (Files/Documents)</strong> - used only to save the reports, exports, and backups you generate, to your own device's storage.</li>
-    </ul>
-    <p>None of these permissions are used to collect information for any purpose beyond the specific feature they support.</p>
+        <h2>6. Permissions This App May Request</h2>
+        <p>To function properly, the App may request the following native device permissions:</p>
+        <ul>
+            <li><strong>Notifications:</strong> Used exclusively to trigger local alarms on your device to remind you about a specific task or plan you have scheduled.</li>
+            <li><strong>Storage (Files/Documents):</strong> Used strictly to save the reports (PDF/Excel), exports, and database backups you generate directly to your own device's physical storage (typically the "Documents" folder).</li>
+            <li><strong>Internet/Network State:</strong> Used by Google AdMob to fetch banner advertisements and by Google Play to verify Premium purchase status.</li>
+        </ul>
+        <p>None of these permissions are used to collect, harvest, or transmit your personal organizational data to us for any purpose whatsoever.</p>
 
-    <h2>7. Data You Control</h2>
-    <p>Because everything is stored on your own device:</p>
-    <ul>
-        <li>Deleting the App, or clearing its data through your device settings, permanently removes everything the App has stored. There is no copy anywhere else to recover, because none exists.</li>
-        <li>You can export a full backup of your own data at any time, and choose exactly what to include.</li>
-        <li>Nothing about your usage is visible to us, because there is no mechanism by which it could be we do not operate any system that receives data from installed copies of this App.</li>
-    </ul>
+        <h2>7. Data You Control</h2>
+        <p>Because everything is stored on your own device, you possess total control over your data:</p>
+        <ul>
+            <li>Deleting the App, using the in-app "Clear All Data" feature, or clearing its storage through your Android device settings permanently removes everything the App has saved. There is no hidden copy anywhere else to recover, because none exists.</li>
+            <li>You can export a full, granular backup of your own data at any time, choosing exactly which categories to include.</li>
+            <li>Nothing about your usage, financial totals, or donor lists is visible to the developers. We do not operate any analytics systems or telemetry trackers that receive data from installed copies of this App.</li>
+        </ul>
 
-    <h2>8. About Documents You Attach (Vendor Receipts, Permission Letters, and Similar Files)</h2>
-    <p>The App allows attaching a single PDF file (up to 2MB) to certain entries for example, a vendor's bill, or a copy of a permission or permit you have obtained from a local authority for your event. This feature exists purely as a place for you to keep your own copy of a document you already possess, for your own organizational and record-keeping purposes.</p>
-    <p>To be clear about what this feature does and does not do:</p>
-    <ul>
-        <li>The App does not issue, verify, validate, apply for, or have any relationship with any government body, licensing authority, or religious institution.</li>
-        <li>The App does not check whether an attached document is genuine, current, complete, or sufficient for any legal or administrative purpose.</li>
-        <li>Storing a document in the App has no bearing on your actual legal obligations to obtain any required permits, licenses, or permissions from the appropriate local authorities for your event - those obligations exist independently of this App and are entirely between you and the relevant authority.</li>
-    </ul>
+        <h2>8. About Documents You Attach (Vendor Receipts, Permission Letters, etc.)</h2>
+        <p>The App allows you to attach a single PDF file (up to 5MB) to specific entries—for example, a vendor's bill, or a copy of a permit you have obtained from a local authority for your event. This feature exists purely as a localized convenience for you to keep your own copy of a document you already possess for your own record-keeping.</p>
+        <p>To be absolutely clear about what this feature does and does not do:</p>
+        <ul>
+            <li>The App does not issue, verify, validate, apply for, or maintain any relationship with any government body, licensing authority, or religious institution.</li>
+            <li>The App does not check whether an attached document is genuine, current, legally complete, or sufficient for any administrative purpose.</li>
+            <li>Storing a document in the App has absolutely no bearing on your actual legal obligations to obtain required permits, licenses, or permissions from appropriate local authorities for your event. Those obligations exist independently of this App and remain entirely between your organization and the relevant authority.</li>
+        </ul>
 
-    <h2>9. Religious and Cultural Neutrality</h2>
-    <p>Mandal Manager was originally built with Ganesh festival community groups in mind, and some of its terminology (such as "Aarti") reflects that origin. The App itself is a general-purpose organizational and record-keeping tool for community festival groups broadly - including but not limited to Ganesh Mandals, Navratri committees, and groups organizing observances for other occasions. The App does not represent, endorse, or take a position on behalf of any religious or cultural practice; it simply provides the same organizational features (donation tracking, task management, contact records) regardless of the occasion a group is using it for.</p>
+        <h2>9. Religious and Cultural Neutrality</h2>
+        <p>Mandal Manager was originally conceptualized with Ganesh festival community groups in mind, and some of its terminology (such as "Aarti" or "Vargani") reflects that origin. However, the App itself is a general-purpose organizational and record-keeping tool built for community festival groups broadly—including, but not limited to, Ganesh Mandals, Navratri committees, Shiv Jayanti organizers, and groups handling observances for other occasions. The App does not represent, endorse, or take a position on behalf of any specific religious or cultural practice; it simply provides flexible organizational tools regardless of the occasion.</p>
 
-    <h2>10. Children's Privacy</h2>
-    <p>This App is intended for use by adult members of community organizations managing festival logistics and finances, and is not directed at children. We do not knowingly collect information from children through this App.</p>
+        <h2>10. Children's Privacy</h2>
+        <p>This App is intended for use by adult members of community organizations managing festival logistics and finances, and is not directed at children. We do not knowingly collect information from children through this App.</p>
 
-    <h2>11. Changes to This Policy</h2>
-    <p>If this policy is updated, the "Last updated" date at the top will change. Continued use of the App after an update means you accept the revised policy.</p>
+        <h2>11. Changes to This Policy</h2>
+        <p>If this policy is updated to reflect new features or functionality (such as version 1.0.3), the "Last updated" date at the top of the document will change. Continued use of the App after an update constitutes your acceptance of the revised policy.</p>
 
-    <h2>12. Contact</h2>
-    <p>Questions about this policy or the App's data practices can be directed to: <strong><a href="mailto:suss.edtech@gmail.com">suss.edtech@gmail.com</a></strong></p>
+        <h2>12. Contact</h2>
+        <p>If you have any questions about this policy or the App's localized data practices, you can direct them to: <strong><a href="mailto:suss.edtech@gmail.com">suss.edtech@gmail.com</a></strong></p>
 
-    <div class="disclaimer">
-        <strong>Disclaimer:</strong> This document describes in good faith and in plain language what Mandal Manager actually does with your data.
+        <div class="disclaimer">
+            <strong>Disclaimer:</strong> This document describes in good faith, and in plain language, exactly what Mandal Manager does with your data. It prioritizes practical transparency over complex legal phrasing so that users can clearly understand that their data never leaves their device unless they explicitly send it themselves.
+        </div>
     </div>
 </body>
 </html>
