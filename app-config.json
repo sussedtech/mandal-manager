@@ -26,64 +26,64 @@
         "id": "banner-02-bakery",
         "imageUrl": "https://sussedtech.github.io/mandal-manager/banner2.png",
         "clickUrl": "",
-        "startDate": "2026-08-01T00:00:00+05:30",
-        "endDate": "2026-09-30T23:59:59+05:30"
+        "startDate": "2027-08-01T00:00:00+05:30",
+        "endDate": "2027-09-30T23:59:59+05:30"
       },
       {
         "id": "banner-03-mandap",
         "imageUrl": "https://sussedtech.github.io/mandal-manager/banner3.png",
         "clickUrl": "",
-        "startDate": "2026-08-01T00:00:00+05:30",
-        "endDate": "2026-09-30T23:59:59+05:30"
+        "startDate": "2027-08-01T00:00:00+05:30",
+        "endDate": "2027-09-30T23:59:59+05:30"
       },
       {
         "id": "banner-04-sound",
         "imageUrl": "https://sussedtech.github.io/mandal-manager/banner4.png",
         "clickUrl": "",
-        "startDate": "2026-08-01T00:00:00+05:30",
-        "endDate": "2026-09-30T23:59:59+05:30"
+        "startDate": "2027-08-01T00:00:00+05:30",
+        "endDate": "2027-09-30T23:59:59+05:30"
       },
       {
         "id": "banner-05-photo",
         "imageUrl": "https://sussedtech.github.io/mandal-manager/banner5.png",
         "clickUrl": "",
-        "startDate": "2026-08-01T00:00:00+05:30",
-        "endDate": "2026-09-30T23:59:59+05:30"
+        "startDate": "2027-08-01T00:00:00+05:30",
+        "endDate": "2027-09-30T23:59:59+05:30"
       },
       {
         "id": "banner-06-caterers",
         "imageUrl": "https://sussedtech.github.io/mandal-manager/banner6.png",
         "clickUrl": "",
-        "startDate": "2026-08-01T00:00:00+05:30",
-        "endDate": "2026-09-30T23:59:59+05:30"
+        "startDate": "2027-08-01T00:00:00+05:30",
+        "endDate": "2027-09-30T23:59:59+05:30"
       },
       {
         "id": "banner-07-dhol",
         "imageUrl": "https://sussedtech.github.io/mandal-manager/banner7.png",
         "clickUrl": "",
-        "startDate": "2026-08-01T00:00:00+05:30",
-        "endDate": "2026-09-30T23:59:59+05:30"
+        "startDate": "2027-08-01T00:00:00+05:30",
+        "endDate": "2027-09-30T23:59:59+05:30"
       },
       {
         "id": "banner-08-transport",
         "imageUrl": "https://sussedtech.github.io/mandal-manager/banner8.png",
         "clickUrl": "",
-        "startDate": "2026-08-01T00:00:00+05:30",
-        "endDate": "2026-09-30T23:59:59+05:30"
+        "startDate": "2027-08-01T00:00:00+05:30",
+        "endDate": "2027-09-30T23:59:59+05:30"
       },
       {
         "id": "banner-09-flowers",
         "imageUrl": "https://sussedtech.github.io/mandal-manager/banner9.png",
         "clickUrl": "",
-        "startDate": "2026-08-01T00:00:00+05:30",
-        "endDate": "2026-09-30T23:59:59+05:30"
+        "startDate": "2027-08-01T00:00:00+05:30",
+        "endDate": "2027-09-30T23:59:59+05:30"
       },
       {
         "id": "banner-10-advertise-here",
         "imageUrl": "https://sussedtech.github.io/mandal-manager/banner10.png",
         "clickUrl": "mailto:suss.edtech@gmail.com?subject=Ad%20Placement%20Inquiry&body=Hello,%20I%20would%20like%20to%20advertise%20my%20business%20on%20Mandal%20Manager.",
-        "startDate": "2026-08-01T00:00:00+05:30",
-        "endDate": "2026-12-31T23:59:59+05:30"
+        "startDate": "2027-08-01T00:00:00+05:30",
+        "endDate": "2027-12-31T23:59:59+05:30"
       }
     ]
   }
