@@ -26,8 +26,8 @@
         "id": "banner-02-bakery",
         "imageUrl": "https://sussedtech.github.io/mandal-manager/banner2.png",
         "clickUrl": "",
-        "startDate": "2027-08-01T00:00:00+05:30",
-        "endDate": "2027-09-30T23:59:59+05:30"
+        "startDate": "2026-08-01T00:00:00+05:30",
+        "endDate": "2026-09-30T23:59:59+05:30"
       },
       {
         "id": "banner-03-mandap",
