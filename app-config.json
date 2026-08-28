@@ -19,15 +19,15 @@
         "id": "banner-01-contactforads",
         "imageUrl": "https://sussedtech.github.io/mandal-manager/banner1.png",
         "clickUrl": "https://wa.me/917620129612?text=Hello,%20I%20saw%20your%20ad%20on%20Mandal%20Manager",
-        "startDate": "2027-08-01T00:00:00+05:30",
-        "endDate": "2027-09-30T23:59:59+05:30"
+        "startDate": "2026-08-01T00:00:00+05:30",
+        "endDate": "2026-09-30T23:59:59+05:30"
       },
       {
         "id": "banner-02-bakery",
         "imageUrl": "https://sussedtech.github.io/mandal-manager/banner2.png",
         "clickUrl": "https://wa.me/919325608773?text=नमस्कार,%20मी%20तुमची%20जाहिरात%20Mandal%20Manager%20वर%20पाहिली",
-        "startDate": "2027-08-01T00:00:00+05:30",
-        "endDate": "2027-09-30T23:59:59+05:30"
+        "startDate": "2026-08-01T00:00:00+05:30",
+        "endDate": "2026-09-30T23:59:59+05:30"
       },
       {
         "id": "banner-03-mandap",
